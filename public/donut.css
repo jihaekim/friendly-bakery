@@ -1,0 +1,64 @@
+body{
+    font-family: monospace;
+}
+#donut-heading{
+    text-align: center;
+    font-size: 4em;
+    margin-top: 5%;
+    
+}
+img{
+    width:200px;
+    height:200px;
+}
+
+#donuts{
+    display:flex;
+    /* flex-direction:column; */
+    /* flex-flow: row wrap; */
+    flex-wrap:wrap;
+    margin: 6%;
+    margin-top: 0;
+   
+}
+
+#inner-container{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    flex-grow:1;
+    align-items: center;
+    padding: 3%;
+}
+
+#donut-description{
+    text-align: center;
+    font-size: 14px;
+    width: 80%;
+}
+
+
+pre{
+    display:none;
+}
+
+#cupcake-img{
+    width: 210px;
+    height: 183px;
+}
+
+hr{
+    width:80%;
+}
+
+#navbar{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.link-nav{
+ text-decoration: none;
+ padding: 0 3% 0 3%;
+ color: black;
+}
+
+
