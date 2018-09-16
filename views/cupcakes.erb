@@ -12,20 +12,20 @@
 <body>
 
 <h1 id="donut-heading">Cupcakes</h1>
-# <hr>
-# <div id="navbar">
-# <a class="link-nav" href = "<%= url('/')%>">HOME</a>
-# <a class="link-nav" href="#">ABOUT</a>
-# <a class="link-nav" href="<%= url('/donuts')%>">DONUTS</a>
-# <a class="link-nav" href="<%= url('/cupcakes')%>">CUPCAKES</a>
-# <a class="link-nav" href="<%= url('/cakes')%>">CAKES</a>
-# </div>
+<hr>
+<div id="navbar">
+<a class="link-nav" href = "<%= url('/')%>">HOME</a>
+<a class="link-nav" href="#">ABOUT</a>
+<a class="link-nav" href="<%= url('/donuts')%>">DONUTS</a>
+<a class="link-nav" href="<%= url('/cupcakes')%>">CUPCAKES</a>
+<a class="link-nav" href="<%= url('/cakes')%>">CAKES</a>
+</div>
 
 
 <div id="donuts">
 <% @mycupcakes.each do |single_cupcake| %>
     <div id="inner-container">
-    <img id="cupcake-img"src ="<%=single_cupcake.picture%>">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"><img id="cupcake-img"src ="<%=single_cupcake.picture%>"></button>
     <h2><%=single_cupcake.name%></h2>
     <p id="donut-description"><%=single_cupcake.description%></p>
     </div>
