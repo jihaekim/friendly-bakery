@@ -157,7 +157,7 @@ display:block;
     padding: 5%;
 }
 
-#footer{
+.footer{
     margin-top:20%;
     background-color:black;
     color:white;
@@ -165,14 +165,14 @@ display:block;
     display: flex;
     justify-content: center;
 }
-#footer-inner{
+.footer-inner{
     width: 25%;
 }
 
-#footer-inner h3{
+.footer-inner h3{
     text-align: center;
     font-family: monospace;
 }
-#footer-icons{
+.footer-icons{
     margin-left: 25%;
 }

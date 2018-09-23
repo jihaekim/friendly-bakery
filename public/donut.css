@@ -2,10 +2,11 @@ body{
     font-family: monospace;
     margin: 0;
 }
-#donut-heading{
+.content-heading{
     text-align: center;
     font-size: 4em;
     margin-top: 5%;
+    margin-bottom: 3%;
     
 }
 img{
@@ -13,7 +14,7 @@ img{
     height:200px;
 }
 
-#donuts{
+.pastries{
     display:flex;
     /* flex-direction:column; */
     /* flex-flow: row wrap; */
@@ -23,7 +24,10 @@ img{
    
 }
 
-#inner-container{
+.pastries h2{
+    font-size: 18px;
+}
+.inner-container{
     display:flex;
     flex-direction: column;
     width:25%;
@@ -32,7 +36,7 @@ img{
     padding: 3%;
 }
 
-#donut-description{
+.content-description{
     text-align: center;
     font-size: 14px;
     width: 80%;
@@ -43,20 +47,20 @@ pre{
     display:none;
 }
 
-#cupcake-img{
-    width: 210px;
-    height: 183px;
-}
-
 hr{
     width:80%;
 }
 
-#navbar{
+.content-navbar{
     text-align: center;
     padding-bottom: 5%;
-    width: 80%;
-    margin: 0 auto;
+}
+
+.content-navbar a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:black;
 }
 
 .link-nav{

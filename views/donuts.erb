@@ -15,9 +15,9 @@
 </head>
 <body>
 
-<h1 id="donut-heading">Donuts</h1>
+<h1 class="content-heading">Donuts</h1>
 <hr>
-<div id="navbar">
+<div class="content-navbar">
 <a class="link-nav" href = "<%= url('/')%>">HOME</a>
 <a class="link-nav" href="<%= url('/donuts')%>">DONUTS</a>
 <a class="link-nav" href="<%= url('/cupcakes')%>">CUPCAKES</a>
@@ -25,26 +25,15 @@
 </div>
 
 
-<div id="donuts">
+<div class="pastries">
 <% @mydonuts.each do |single_donut| %>
-    <div id="inner-container">
+    <div class="inner-container">
     <img src ="<%=single_donut.picture%>">
     <h2><%=single_donut.name%></h2>
-    <p id="donut-description"><%=single_donut.description%></p>
+    <p class="content-description"><%=single_donut.description%></p>
     </div>
 <%end%>
 
-</div>
-
-<div id="footer">
-<div id="footer-inner">
- <h3>follow us</h3>
- <div id="footer-icons">
- <i class="fab fa-twitter-square"></i>
- <i class="fab fa-instagram"></i>
- <i class="fab fa-facebook-square"></i>
- </div>
-</div>
 </div>
 
 
