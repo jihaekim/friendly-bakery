@@ -26,7 +26,7 @@
 <div id="donuts">
 <% @mycupcakes.each do |single_cupcake| %>
     <div id="inner-container">
-    <img id="cupcake-img"src ="<%=single_cupcake.picture%>">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"><img id="cupcake-img"src ="<%=single_cupcake.picture%>"></button>
     <h2><%=single_cupcake.name%></h2>
     <p id="donut-description"><%=single_cupcake.description%></p>
     </div>
