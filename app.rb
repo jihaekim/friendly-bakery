@@ -20,4 +20,8 @@ get'/cakes' do
   erb :cakes
 end
 
+get'/about' do
+  erb :about
+end
+
 
